@@ -1,4 +1,4 @@
-FROM toshiara/alpine-texlive-ja-plus:2020.5.10
+FROM toshiara/alpine-texlive-ja-plus:2020.9.30
 LABEL lastupdate=2020.11.21
 
 RUN apk --no-cache add ghostscript wget tar xz
