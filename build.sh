@@ -1,5 +1,5 @@
 USERID=toshiara
-NAME=alpine-texlive-ja-plus-xetex
+NAME=alpine-texlive-ja-modern
 MAINVER=2020
 
 # build
