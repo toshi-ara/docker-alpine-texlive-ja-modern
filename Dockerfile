@@ -1,10 +1,11 @@
 FROM toshiara/alpine-texlive-ja-plus:2020.5.10
-LABEL lastupdate=2020.11.23
+LABEL lastupdate=2020.11.24
 
 RUN apk --no-cache add ghostscript wget tar xz
 RUN tlmgr update --self && \
     tlmgr install xetex xecjk ctex \
                   lualatex-math \
+                  light-latex-make \
                   inconsolata noto opensans \
                   fourier fouriernc yhmath \
                   libertine libertinus-fonts libertinus-type1 \
