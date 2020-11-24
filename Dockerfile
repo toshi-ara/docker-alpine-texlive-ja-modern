@@ -1,4 +1,4 @@
-FROM toshiara/alpine-texlive-ja-plus:2020.5.10
+FROM toshiara/alpine-texlive-ja-plus:2020.9.30
 LABEL lastupdate=2020.11.24
 
 RUN apk --no-cache add ghostscript wget tar xz
@@ -7,7 +7,7 @@ RUN tlmgr update --self && \
                   lualatex-math \
                   light-latex-make \
                   inconsolata noto opensans \
-                  fourier fouriernc yhmath \
+                  fourier fouriernc \
                   libertine libertinus-fonts libertinus-type1 \
                   libertinust1math \
                   lxfonts newtxsf newpx \
